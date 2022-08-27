@@ -1,0 +1,86 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 0 1.5em;
+}
+
+.nav-container>img{
+    width: 30px;
+    margin-right: 4px;
+}
+
+.nav-container>p{
+    margin-left: auto;
+    font-size: 14px;
+}
+
+.main-container{
+    padding: 2.5em 2em;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.form>input{
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    padding: 6px 0;
+    text-indent: 5px;
+}
+
+.btn{
+    grid-column: 1/-1;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border: none;
+    border-radius: 6px;
+    padding: 0.5em 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.squares{
+    display: inline-block;
+}
+
+.boxes{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 100px;
+    height: 100px;
+    margin: 1em;
+}
+
+.meme{
+    margin-top: 2em;
+    position: relative;
+    color: white;
+}
+
+.memeimg{
+    width: 100%;
+    margin-top: 0;
+}
+
+.top-text{
+    position: absolute;
+    top: 0;
+    left: 2em;
+}
+
+.bottom-text{
+    position: absolute;
+    bottom: 0;
+    left: 2em;
+}
+
+.top-text, .bottom-text{
+    -webkit-text-stroke: 1.2px black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
