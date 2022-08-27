@@ -61,10 +61,10 @@ const Main = () => {
               </button> 
         </div>
         <div className='meme'>
-            <img className='memeimg' 
-            src={meme.randomImage} 
-            alt="meme-img" 
-            />
+          {meme.randomImage && <img className='memeimg' 
+          src={meme.randomImage} 
+          alt="meme-img" 
+          />}
             <h2 className='top-text'>{meme.toptext}</h2>
             <h2 className='bottom-text'>{meme.bottomtext}</h2>
         </div> 
